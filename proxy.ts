@@ -13,5 +13,7 @@ export async function proxy(request: NextRequest) {
 }
 
 export const config = {
-  matcher: ["/admin/:path*"],
+  matcher: [
+    "/((?!login|register|forgot-password|reset-password|api|_next/static|_next/image|favicon.ico).*)",
+  ],
 };
