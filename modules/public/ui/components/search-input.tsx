@@ -11,7 +11,7 @@ import {
   CommandList,
   CommandSeparator,
 } from "@/components/ui/command";
-import { searchItems } from "@/modules/admin/ui/config/search-config";
+import { searchItems } from "@/modules/public/ui/config/search-config";
 import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
 
