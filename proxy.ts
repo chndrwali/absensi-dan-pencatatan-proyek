@@ -13,7 +13,5 @@ export async function proxy(request: NextRequest) {
 }
 
 export const config = {
-  matcher: [
-    "/((?!login|register|forgot-password|reset-password|api|_next/static|_next/image|favicon.ico).*)",
-  ],
+  matcher: ["/overview/:path*", "/absensi/:path*", "/keuangan/:path*"],
 };

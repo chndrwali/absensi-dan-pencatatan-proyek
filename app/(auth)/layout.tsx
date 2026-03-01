@@ -10,7 +10,7 @@ export default async function AuthLayoutWrapper({
   const session = await getSession();
 
   if (session) {
-    redirect("/admin");
+    redirect("/overview");
   }
 
   return <AuthLayout>{children}</AuthLayout>;
